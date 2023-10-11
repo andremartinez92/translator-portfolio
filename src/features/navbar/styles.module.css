@@ -1,0 +1,148 @@
+@tailwind utilities;
+
+@layer utilities {
+  .navbar {
+    @apply bg-background fixed top-0 min-w-full w-full max-w-full z-10;
+    @apply grid overflow-y-hidden;
+    @apply 2xl:max-w-[var(--max-width)] 2xl:my-0 2xl:mx-auto 2xl:min-w-fit;
+    grid-template-areas:
+      '. logo logo lang burger . '
+      'links links links links links links';
+    /* removing some pixels so that the burger aligns with the page's padding */
+    grid-template-columns: var(--side-margin-mobile) 62.5px auto 55px 55px calc(
+        var(--side-margin-mobile) - 12px
+      );
+    grid-template-rows: 60px 0px;
+    transition: grid-template-rows 500ms ease-in-out;
+  }
+
+  .title {
+    all: unset;
+    grid-area: logo;
+    @apply font-serif text-2xl text-sky-800 cursor-pointer hover:text-sky-900 active:text-sky-950 self-center;
+    @apply transition-colors duration-300 ease-linear;
+  }
+
+  .navLinks {
+    grid-area: links;
+    @apply hidden flex-col items-center gap-8;
+  }
+
+  @keyframes open-menu {
+    0% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes close-menu {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+  }
+
+  .navbarOpen {
+    grid-template-rows: 60px calc(100vh - 60px);
+  }
+
+  .navbarOpen .navLinks {
+    display: flex;
+    animation: open-menu 0.5s ease;
+  }
+
+  .navbarClosing .navLinks {
+    display: flex;
+    animation: close-menu 0.5s ease-out;
+  }
+
+  .navbarUl {
+    @apply list-none flex flex-col items-center justify-around w-full p-0;
+  }
+
+  .navbarUl li {
+    @apply flex text-center w-full h-full;
+  }
+
+  .navbarLink {
+    @apply w-full self-center justify-self-center;
+  }
+
+  .burger {
+    grid-area: burger;
+    @apply self-center justify-self-center;
+  }
+
+  .anchorButton {
+    grid-area: links;
+    @apply w-full h-[60px] rounded-none text-base;
+  }
+
+  .selectContainer {
+    grid-area: lang;
+    @apply flex flex-1 self-center justify-self-center flex-row-reverse mr-3;
+  }
+
+  .selectTrigger {
+    @apply p-1 w-[54px] h-[30px];
+    border-color: none;
+  }
+
+  .selectContent {
+    min-width: unset;
+  }
+
+  .flag {
+    @apply w-6 h-6 rounded-[8px];
+  }
+
+  @media only screen and (lg), (orientation: landscape) {
+    .navbar {
+      @apply overflow-y-auto flex justify-between items-center box-border;
+      padding: 0 var(--side-margin);
+    }
+
+    .navLinks {
+      grid-area: unset;
+      @apply flex flex-row items-center gap-4;
+    }
+
+    .navbarUl {
+      @apply list-none flex flex-row p-0 m-0 items-center;
+    }
+
+    .navbarUl li {
+      @apply h-auto w-auto block text-left;
+    }
+
+    .navbarLink {
+      @apply w-auto;
+    }
+
+    .burger {
+      @apply hidden;
+    }
+
+    .anchorLi {
+      @apply ml-3;
+    }
+
+    .anchorButton {
+      @apply h-auto self-auto rounded-[10px];
+    }
+  }
+
+  @media only screen and (orientation: landscape) and (max-width: 1023.99px) {
+    .navbar {
+      padding: 0 var(--side-margin-mobile);
+    }
+  }
+}

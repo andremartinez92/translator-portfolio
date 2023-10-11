@@ -1,0 +1,38 @@
+@tailwind utilities;
+
+@layer utilities {
+  .h1 {
+    @apply decoration-rose-400 text-center;
+  }
+
+  .sectionGrid {
+    @apply flex flex-col items-center gap-16;
+    @apply xl:grid xl:grid-cols-2 xl:gap-[60px] xl:items-start;
+  }
+
+  .contacts {
+    @apply max-w-[470px] justify-self-end;
+  }
+
+  .contactsText {
+    @apply text-justify;
+  }
+
+  .links {
+    @apply list-none flex flex-col justify-normal;
+    @apply md:grid md:grid-cols-2 md:justify-items-center;
+    @apply xl:flex xl:flex-col xl:justify-normal;
+  }
+
+  .buttonLink {
+    max-width: fit-content;
+  }
+
+  .link {
+    @apply flex gap-4 items-center px-0 w-max not-italic;
+  }
+
+  .form {
+    @apply w-full max-w-[470px];
+  }
+}

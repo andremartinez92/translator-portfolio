@@ -1,0 +1,52 @@
+@tailwind components;
+
+@layer components {
+  .commentsCarousel {
+    @apply grow;
+    @apply md:mx-[40px];
+  }
+
+  .card {
+    @apply flex flex-col justify-between min-h-[190px] max-h-[400px];
+    @apply md:max-h-[300px];
+    background: linear-gradient(
+      99deg,
+      #243d05 0%,
+      rgba(106, 143, 57, 0.99) 99.52%
+    );
+  }
+
+  .cardTitle {
+    @apply text-base;
+  }
+
+  .cardFooter {
+    @apply block;
+  }
+
+  .cardFooterText {
+    @apply text-sm;
+  }
+
+  .cardTitle,
+  .cardFooterText {
+    @apply text-slate-50 mb-0;
+    text-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  }
+
+  .arrow {
+    @apply bg-lime-800 opacity-100 text-slate-200;
+  }
+
+  .arrow svg {
+    @apply fill-current;
+  }
+
+  .arrow:nth-of-type(odd) {
+    @apply left-[-40px];
+  }
+
+  .arrow:nth-of-type(even) {
+    @apply right-[-40px];
+  }
+}

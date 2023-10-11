@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* --background: 0 0% 100%; */
+    /* --background: 204 100% 97%; */
+    --background: 210 40% 98%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 215 25% 75%;
+    --ring: 215 25% 75%;
+
+    --radius: 0.5rem;
+
+    --side-margin-mobile: 40px;
+    --side-margin: 140px;
+    --max-width: 2000px;
+    --navbar-height: 60px;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html,
+  body {
+    @apply motion-reduce:scroll-auto;
+    @apply 2xl:w-[var(--max-width)] 2xl:my-0 2xl:mx-auto;
+  }
+
+  html {
+    @apply scroll-smooth scroll-pt-4;
+    @apply xl:scroll-pt-10;
+  }
+
+  body {
+    @apply bg-background text-foreground m-0;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body[data-noscroll] {
+    @apply overflow-hidden;
+  }
+
+  h1 {
+    @apply font-serif underline decoration-4 text-slate-700 mb-10 text-5xl;
+    @apply xs:text-[4rem] xs:leading-[60px];
+    @apply md:mb-14 xl:mb-20;
+  }
+
+  h2 {
+    @apply font-sans font-semibold text-2xl text-slate-700 mb-6 text-center xl:text-left;
+  }
+
+  section {
+    @apply w-full px-[var(--side-margin-mobile)] py-10;
+    @apply xl:px-[var(--side-margin)] py-14;
+  }
+
+  p {
+    @apply font-sans text-slate-800 text-base mb-5 leading-7;
+  }
+}

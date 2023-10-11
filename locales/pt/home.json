@@ -1,0 +1,98 @@
+{
+  "navigation": {
+    "top": "Topo",
+    "aboutMe": "Sobre mim",
+    "services": "Serviços",
+    "experience": "Experiência",
+    "contacts": "Contactos",
+    "callToAction": "Vamos conversar!",
+    "sectionLabel": "Navegação",
+    "navLinks": "Links de navegação",
+    "closeNav": "Fechar navegação",
+    "openNav": "Abrir navegação",
+    "languageSelect": "Select language"
+  },
+  "hero": {
+    "sectionLabel": "Secção inicial",
+    "callToAction": "Vamos conversar!",
+    "subtitle": "Tradutora e Formadora",
+    "photoAlt": "Foto da tradutora"
+  },
+  "aboutMe": {
+    "title": "Sobre mim",
+    "text": "Embarcar na senda da tradução foi uma evolução natural impulsionada por um profundo amor pela língua e pela troca cultural. A minha jornada iniciou-se com a perceção do poder que as palavras têm ao moldar perceções e fomentar conexões. Inspirado pela ideia de que a linguagem é uma porta para compreender perspetivas diversas, abracei a tradução como minha arte.\nAo mergulhar nos estudos linguísticos, aprimorei habilidades para ser uma ponte entre línguas, tecendo meticulosamente significados de um contexto cultural para outro. A decisão de ser tradutora está enraizada na apreciação pelas nuances que tornam cada língua única. Através do meu portefólio, convido-te a testemunhar a interseção da minha paixão pela linguagem e o compromisso de preservar a autenticidade de vozes diversas.\nJunta-te a mim na exploração do fascinante mundo onde as palavras transcendem fronteiras, criando uma tapeçaria de entendimento numa comunidade global interligada. Com cada projeto, esforço-me por capturar não apenas o significado literal, mas a essência da mensagem, fomentando uma apreciação mais profunda pela beleza encontrada na diversidade linguística.",
+    "image": "Ilustração"
+  },
+  "services": {
+    "title": "Serviços",
+    "training": {
+      "title": "Formação",
+      "description": "Aprimorando habilidades linguísticas, conhecimento cultural e precisão na comunicação intercultural."
+    },
+    "translation": {
+      "title": "Tradução",
+      "description": "Desbloqueie a comunicação global com traduções especializadas: precisão, refinamento cultural e maestria linguística ao seu dispor."
+    },
+    "subtitles": {
+      "title": "Legendagem",
+      "description": "Aprimore o conteúdo com legendas impecáveis. O nosso serviço proporciona legendas precisas e cronometradas para uma experiência imersiva do espetador."
+    },
+    "localization": {
+      "title": "Localização",
+      "description": "Presença global personalizada! O nosso serviço de localização adapta conteúdo cultural e linguisticamente, garantindo ressonância e ligação em todo o mundo."
+    },
+    "adaptation": {
+      "title": "Adaptação linguística",
+      "description": "Adaptação linguística fluída: transformando conteúdo para um apelo global, capturando nuances para uma autêntica ressonância intercultural."
+    }
+  },
+  "experience": {
+    "title": "Experiência",
+    "text": "Com uma década de experiência linguística, naveguei por diversas culturas, aperfeiçoando competências de tradução que transcendem fronteiras. Como educadora dedicada, transmiti esse conhecimento, fomentando proficiência linguística em outros.\nA minha jornada engloba um espectro de projetos, desde traduções literárias que captam a alma das narrativas até documentos técnicos que exigem precisão. Apaixonada por transmitir nuances culturais, conduzi programas de formação que vão para além da mecânica da linguagem, nutrindo uma nova geração de comunicadores qualificados.\nSeja a navegar em paisagens literárias ou a transmitir a arte da tradução, a minha experiência é testemunho de um compromisso com a excelência na linguagem, fomentando conexões e colmatando lacunas na comunicação global.",
+    "commentsTitle": "Avaliações dos clientes",
+    "comments": [
+      {
+        "comment": "Excecional! As traduções foram precisas, preservando a essência da nossa marca. Profissionalismo e precisão - impressionado com o serviço exemplar!",
+        "name": "Lisa Harmony",
+        "description": "Celestial Enterprises"
+      },
+      {
+        "comment": "Excecional destreza linguística! A linguagem técnica complexa foi navegada sem esforço. Uma parceira confiável para traduções precisas. Recomendo vivamente!",
+        "name": "James Nebula",
+        "description": "Galaxy Innovations"
+      },
+      {
+        "comment": "Incrível localização! Deram vida à nossa visão entre culturas. Uma verdadeira maestra linguística, garantindo que a nossa mensagem ressoa globalmente. Obrigada!",
+        "name": "Olivia Stellar",
+        "description": "Nebula Dynamics"
+      }
+    ],
+    "connectionsTitle": "Ligações"
+  },
+  "contacts": {
+    "title": "Contactos",
+    "text": "Vamos conectar para a excelência na língua! Se procura serviços de tradução de alta qualidade ou formação transformadora, estou aqui para ajudar. A sua jornada de comunicação global começa aqui!",
+    "form": {
+      "name": {
+        "label": "Nome",
+        "placeholder": "Nome"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Email"
+      },
+      "message": {
+        "label": "Mensagem",
+        "placeholder": "Escreva a sua mensagem"
+      },
+      "callToAction": "Enviar mensagem"
+    }
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "link": "Voltar à página inicial"
+  },
+  "components": {
+    "carouselLabel": "Carrossel com avaliações dos clientes"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "navigation": {
+    "top": "Home",
+    "aboutMe": "About me",
+    "services": "Services",
+    "experience": "Experience",
+    "contacts": "Contacts",
+    "callToAction": "Let's chat!",
+    "sectionLabel": "Navigation",
+    "navLinks": "Navigation links",
+    "closeNav": "Close navigation",
+    "openNav": "Open navigation",
+    "languageSelect": "Select language"
+  },
+  "hero": {
+    "callToAction": "Let's chat!",
+    "subtitle": "Translator and Educator",
+    "sectionLabel": "Hero section",
+    "photoAlt": "Photo of the translator"
+  },
+  "aboutMe": {
+    "title": "About me",
+    "text": "Embarking on the path of translation was a natural evolution fueled by a profound love for language and cultural exchange. My journey began with a realization of the power that words hold in shaping perceptions and fostering connections. Inspired by the idea that language is a gateway to understanding diverse perspectives, I embraced translation as my craft.\nDiving into linguistic studies, I honed my skills to become a bridge between languages, meticulously weaving meaning from one cultural context to another. My decision to be a translator is rooted in a deep appreciation for the nuances that make each language unique. Through my portfolio, I invite you to witness the intersection of my passion for language and commitment to maintaining the authenticity of diverse voices.\nJoin me in exploring the fascinating world where words transcend boundaries, creating a tapestry of understanding in an interconnected global community. With each project, I strive to capture not just the literal meaning but the soul of the message, fostering a deeper appreciation for the beauty found in linguistic diversity.",
+    "image": "Illustration"
+  },
+  "services": {
+    "title": "Services",
+    "training": {
+      "title": "Training",
+      "description": "Honing language skills, cultural expertise, and precision in cross-cultural communication."
+    },
+    "translation": {
+      "title": "Translation",
+      "description": "Unlock global communication with expert translations—precision, cultural finesse, and linguistic mastery at your service."
+    },
+    "subtitles": {
+      "title": "Subtitles",
+      "description": "Enhance content with flawless subtitles. Our service delivers accurate, timed captions for an immersive viewer experience."
+    },
+    "localization": {
+      "title": "Localization",
+      "description": "Tailored global presence! Our localization service adapts content culturally and linguistically, ensuring resonance and connection worldwide."
+    },
+    "adaptation": {
+      "title": "Linguistic Adaptation",
+      "description": "Seamless linguistic adaptation: transforming content for global appeal, capturing nuances for authentic cross-cultural resonance."
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "text": "With a decade of linguistic expertise, I've navigated diverse cultures, honing translation skills that transcend borders. As a dedicated educator, I've imparted this knowledge, fostering linguistic proficiency in others.\nMy journey encompasses a spectrum of projects, from literary translations that capture the soul of narratives to technical documents demanding precision. Passionate about imparting cultural nuances, I've conducted training programs that go beyond language mechanics, nurturing a new generation of skilled communicators.\nWhether navigating literary landscapes or imparting the art of translation, my experience is a testament to a commitment to excellence in language, fostering connections, and bridging global communication gaps.",
+    "commentsTitle": "Clients' reviews",
+    "comments": [
+      {
+        "comment": "Exceptional! The translations were spot-on, preserving the essence of our brand. Professionalism and accuracy—impressed with the stellar service!",
+        "name": "Lisa Harmony",
+        "description": "Celestial Enterprises"
+      },
+      {
+        "comment": "Outstanding linguistic finesse! The technical jargon was navigated effortlessly. A reliable partner for precise translations. Highly recommend!",
+        "name": "James Nebula",
+        "description": "Galaxy Innovations"
+      },
+      {
+        "comment": "Incredible localization! They brought our vision to life across cultures. A true linguistic maestro, ensuring our message resonates globally. Thanks!",
+        "name": "Olivia Stellar",
+        "description": "Nebula Dynamics"
+      }
+    ],
+    "connectionsTitle": "Connections"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "text": "Let's connect for language excellence! Whether you're seeking top-notch translation services or transformative training, I'm here to help. Your global communication journey starts here!",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Email"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Please write your message"
+      },
+      "callToAction": "Send message"
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "link": "Go back to home page"
+  },
+  "components": {
+    "carouselLabel": "Clients' reviews carousel"
+  }
+}

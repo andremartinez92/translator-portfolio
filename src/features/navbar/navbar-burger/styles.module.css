@@ -1,0 +1,40 @@
+@tailwind components;
+
+@layer components {
+  .burger {
+    all: unset;
+    @apply block cursor-pointer h-[25px] w-[25px] p-[5px] space-y-[4px];
+    @apply transition-transform duration-500 ease-in-out;
+  }
+
+  .burger:hover,
+  .burger:focus,
+  .burger:focus-visible,
+  .burger:active {
+    @apply scale-110 outline-none;
+  }
+
+  .burger:focus,
+  .burger:focus-visible {
+    outline: 1px dotted black;
+  }
+
+  .burgerLine1,
+  .burgerLine2,
+  .burgerLine3 {
+    @apply bg-sky-900 w-[25px] h-[3px] rounded-[2px];
+    @apply transition-all duration-700 ease-in-out;
+  }
+
+  .burgerOpen .burgerLine1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+  }
+
+  .burgerOpen .burgerLine2 {
+    opacity: 0;
+  }
+
+  .burgerOpen .burgerLine3 {
+    transform: rotate(45deg) translate(-5px, -5px);
+  }
+}

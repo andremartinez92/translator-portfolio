@@ -1,0 +1,36 @@
+@tailwind utilities;
+
+@layer utilities {
+  .h1 {
+    @apply decoration-lime-600 text-center;
+  }
+
+  .sectionGrid {
+    @apply flex flex-col gap-8 items-center;
+    @apply xl:grid xl:grid-cols-2 xl:gap-28;
+  }
+
+  .contentText {
+    @apply justify-self-start max-w-[650px];
+    @apply xl:self-start;
+  }
+
+  .commentsSection {
+    @apply flex flex-col w-[80%] gap-16 max-w-[650px];
+    @apply xl:flex xl:flex-col xl:justify-between xl:justify-self-center;
+  }
+
+  .connections {
+    @apply grid grid-cols-4 justify-items-center gap-3;
+  }
+
+  .connectionButton {
+    @apply w-[100%] h-[100%] max-w-[120px] max-h-[120px] rounded-full;
+    @apply sepia contrast-[0.85] brightness-[0.75];
+    @apply border-solid border-[3px] sm:border-[4px] border-stone-600;
+  }
+
+  .connectionImage {
+    @apply rounded-full;
+  }
+}

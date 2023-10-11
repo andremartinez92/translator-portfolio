@@ -1,0 +1,22 @@
+@tailwind utilities;
+
+@layer utilities {
+  .h1 {
+    @apply decoration-sky-600 mx-auto text-center;
+  }
+
+  .sectionGrid {
+    @apply flex flex-col gap-12 items-center;
+    @apply xl:grid xl:grid-cols-2;
+  }
+
+  .content {
+    @apply max-w-[650px] justify-self-start;
+  }
+
+  .image {
+    @apply self-center justify-self-center;
+    @apply lg:ml-8;
+    @apply xl:self-start;
+  }
+}

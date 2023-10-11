@@ -1,0 +1,47 @@
+@tailwind utilities;
+
+@layer utilities {
+  .section {
+    @apply relative overflow-hidden;
+  }
+
+  .h1 {
+    @apply decoration-yellow-500 text-center mb-14 md:mb-16;
+  }
+
+  .cardContainer {
+    @apply flex justify-center gap-12 items-center flex-wrap max-w-[1400px] mx-auto;
+    @apply lg:px-12;
+    @apply xl:gap-16 xl:px-24;
+    @apply 2xl:gap-x-28 2xl:gap-y-24;
+  }
+
+  .card {
+    @apply text-slate-700 bg-white hover:text-white w-[277px] h-[280px];
+    @apply transition-colors duration-500;
+    @apply hover:bg-amber-500 hover:border-amber-500 hover:text-white;
+    box-shadow: 0px 4px 34px 0px rgba(174, 174, 174, 0.97);
+  }
+
+  .cardHeader {
+    @apply items-center gap-3;
+  }
+
+  .cardTitle {
+    @apply text-slate-700 transition-colors duration-500;
+  }
+
+  .icon {
+    @apply text-yellow-500 transition-colors duration-500;
+  }
+
+  .description {
+    @apply text-sm transition-colors duration-500 text-slate-700;
+  }
+
+  .card:hover .icon,
+  .card:hover .description,
+  .card:hover .cardTitle {
+    @apply text-white;
+  }
+}
