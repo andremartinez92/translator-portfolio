@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Alice Smith</title>
+        <title>Alice Smith - Translator and Educator</title>
         <meta name="description" content="Translator and Educator" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* start favicon */}
