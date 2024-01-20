@@ -9,7 +9,7 @@
       '. logo logo lang burger . '
       'links links links links links links';
     /* removing some pixels so that the burger aligns with the page's padding */
-    grid-template-columns: var(--side-margin-mobile) 62.5px auto 55px 55px calc(
+    grid-template-columns: var(--side-margin-mobile) auto auto 55px 55px calc(
         var(--side-margin-mobile) - 12px
       );
     grid-template-rows: 60px 0px;
@@ -17,9 +17,13 @@
   }
 
   .title {
-    all: unset;
     grid-area: logo;
-    @apply font-serif text-2xl text-sky-800 cursor-pointer hover:text-sky-900 active:text-sky-950 self-center;
+    @apply self-center;
+  }
+
+  .titleAnchor {
+    all: unset;
+    @apply font-serif text-2xl text-sky-800 cursor-pointer hover:text-sky-900 active:text-sky-950;
     @apply transition-colors duration-300 ease-linear;
   }
 
@@ -79,7 +83,6 @@
   .burger {
     grid-area: burger;
     @apply block self-center justify-self-center;
-    @apply landscape:lg:hidden;
   }
 
   .anchorButton {
@@ -126,6 +129,10 @@
 
     .navbarLink {
       @apply w-auto;
+    }
+
+    .burger {
+      @apply hidden;
     }
 
     .anchorLi {

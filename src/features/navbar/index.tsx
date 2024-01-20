@@ -56,9 +56,11 @@ const Navbar = () => {
       id="navbar"
       onAnimationEnd={onAnimationEnd}
     >
-      <a className={css.title} href={TOP_ROUTE}>
-        Alice Smith
-      </a>
+      <span className={css.title}>
+        <a className={css.titleAnchor} href={TOP_ROUTE}>
+          Alice Smith
+        </a>
+      </span>
 
       <div className={css.selectContainer}>
         <Select

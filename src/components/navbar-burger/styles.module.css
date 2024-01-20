@@ -2,8 +2,7 @@
 
 @layer components {
   .burger {
-    all: unset;
-    @apply block cursor-pointer h-[25px] w-[25px] p-[5px] space-y-[4px];
+    @apply block cursor-pointer h-[25px] w-[25px] space-y-[4px];
     @apply transition-transform duration-500 ease-in-out;
   }
 
