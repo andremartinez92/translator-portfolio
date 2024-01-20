@@ -1,5 +1,4 @@
 import { CONTACTS_ROUTE, TOP_ROUTE, getLinksData } from '@/constants/routes';
-import clsx from 'clsx';
 import {
   Select,
   SelectContent,
@@ -14,9 +13,10 @@ import useAnimationState, { AnimationState } from '@/hooks/use-animation-state';
 import EnFlagIcon from '@/components/icons/en-flag';
 import PtFlagIcon from '@/components/icons/pt-flag';
 import FrFlagIcon from '@/components/icons/fr-flag';
-import NavbarBurger from './navbar-burger';
-import NavbarLink from './navbar-link';
 import { Button } from '@/components/button';
+import NavbarBurger from '@/components/navbar-burger';
+import NavbarLink from '@/components/navbar-link';
+import { cn } from '@/lib/utils';
 
 const { OPEN, CLOSING, CLOSED } = AnimationState;
 
@@ -43,7 +43,7 @@ const Navbar = () => {
     }
   };
 
-  const classes = clsx({
+  const classes = cn({
     [css.navbar]: true,
     [css.navbarOpen]: animationState === OPEN,
     [css.navbarClosing]: animationState === CLOSING,

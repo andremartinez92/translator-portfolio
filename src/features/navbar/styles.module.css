@@ -78,7 +78,8 @@
 
   .burger {
     grid-area: burger;
-    @apply self-center justify-self-center;
+    @apply block self-center justify-self-center;
+    @apply landscape:lg:hidden;
   }
 
   .anchorButton {
@@ -125,10 +126,6 @@
 
     .navbarLink {
       @apply w-auto;
-    }
-
-    .burger {
-      @apply hidden;
     }
 
     .anchorLi {
