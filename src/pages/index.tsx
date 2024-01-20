@@ -6,13 +6,16 @@ import Hero from '@/features/sections/hero';
 import Navbar from '@/features/navbar';
 import Services from '@/features/sections/services';
 import Head from 'next/head';
+import useTranslation from 'next-translate/useTranslation';
 
 export default function Home() {
+  const { t } = useTranslation('home');
+
   return (
     <>
       <Head>
-        <title>Alice Smith - Translator and Educator</title>
-        <meta name="description" content="Translator and Educator" />
+        <title>{t('meta.title')}</title>
+        <meta name="description" content={t('meta.description')} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* start favicon */}
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -45,10 +48,10 @@ export default function Home() {
         <meta charSet="utf-8" />
         {/* <meta
           name='google-site-verification'
-          content='placeholder (get from somewhere)'
+          content='placeholder'
         /> */}
-        <meta property="og:title" content="Alice Smith" />
-        <meta property="og:description" content="Translator and Educator" />
+        <meta property="og:title" content={t('meta.title')} />
+        <meta property="og:description" content={t('meta.description')} />
         <meta
           property="og:image"
           content="https://alice-smith-fake-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofile.c3960cda.png&w=1920&q=75"

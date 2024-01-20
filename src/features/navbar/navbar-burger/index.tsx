@@ -1,5 +1,5 @@
+import { cn } from '@/lib/utils';
 import css from './styles.module.css';
-import clsx from 'clsx';
 import useTranslation from 'next-translate/useTranslation';
 import type { MouseEventHandler } from 'react';
 
@@ -18,10 +18,10 @@ const NavbarBurger = ({
 }: Props) => {
   const { t } = useTranslation('home');
 
-  const classes = clsx({
+  const classes = cn({
     [css.burger]: true,
-    [className]: true,
     [css.burgerOpen]: isOpen,
+    [className]: true,
   });
 
   return (
