@@ -131,15 +131,15 @@ const ContactForm = ({ className }: { className?: string }) => {
           isSuccess
             ? css.successMessage
             : error
-              ? css.visibleError
-              : css.hiddenMessage
+            ? css.visibleError
+            : css.hiddenMessage
         }
       >
         {isSuccess
           ? 'Form submitted successfully!'
           : error
-            ? `Error: ${error}`
-            : 'No message'}
+          ? `Error: ${error}`
+          : 'No message'}
       </p>
 
       <Button

@@ -38,7 +38,7 @@ const Experience = () => {
   const comments: Array<Comment> = t(
     'experience.comments',
     {},
-    { returnObjects: true },
+    { returnObjects: true }
   );
 
   return (

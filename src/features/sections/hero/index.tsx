@@ -23,7 +23,7 @@ const Hero = () => {
         locale,
       });
     },
-    [replace, pathname, query, asPath],
+    [replace, pathname, query, asPath]
   );
 
   return (
