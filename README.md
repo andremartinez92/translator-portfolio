@@ -8,5 +8,5 @@ This project began as a portfolio page for a client. In order to protect the cli
 - Tailwind;
 - Shadcn/ui;
 - next-translate for i18n;
-- Hosted on Netlify;
+- Hosted on Vercel;
 - Sentry for error tracking.

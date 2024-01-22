@@ -42,6 +42,7 @@ const Hero = () => {
           priority
           placeholder="blur"
           sizes="(max-width: 360px) 360px, (max-width: 480px) 480px, 500px"
+          quality={70}
         />
         <h1 className={css.heroH1}>{TITLE}</h1>
         <svg className={css.heroRect}>
