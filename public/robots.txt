@@ -1,3 +1,6 @@
-# Disallow all crawlers
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+# Allow all other crawlers
 User-agent: *
-Disallow: /
+Allow: /
