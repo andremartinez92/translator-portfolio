@@ -9,7 +9,6 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc",
-    "test": "jest --watch",
     "format": "prettier --write \"src/**/*.+(js|ts|tsx|css|json)\"",
     "validate": "yarn format && yarn lint && yarn typecheck && jest"
   },

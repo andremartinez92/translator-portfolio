@@ -1,28 +1,12 @@
-# New project setup
+# Translator Portfolio
 
-1. Update placeholders
-1. Import fonts
-1. Setup fields below
-1. Setup new sentry project and update .env and .sentryclirc
-1. Update robots.txt
+This project began as a portfolio page for a client. In order to protect the client's privacy, photos, data and text have been faked.
 
-## Fonts
+# Stack
 
-[NextJS fonts](https://nextjs.org/docs/app/building-your-application/optimizing/fonts).
-
-## Sentryclirc
-
-```
-[auth]
-token=insert token here
-```
-
-## Where to get Favicons and site manifest
-
-https://realfavicongenerator.net
-
-## Where to get Google Site Verification meta
-
-## Where to get og:image meta
-
-## Where to get og:url meta
+- Next.js;
+- Tailwind;
+- Shadcn/ui;
+- next-translate for i18n;
+- Hosted on Netlify;
+- Sentry for error tracking.
