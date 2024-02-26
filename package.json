@@ -26,7 +26,6 @@
     "next-translate": "2.6.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sharp": "0.32.0",
     "tailwind-merge": "1.14.0",
     "tailwindcss-animate": "1.0.7",
     "typescript": "5.0.4"
