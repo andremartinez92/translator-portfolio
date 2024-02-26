@@ -1,5 +1,0 @@
-[build]
-  command = "yarn build"
-  publish = ".next"
-[functions]
-  external_node_modules = ["sharp"]
