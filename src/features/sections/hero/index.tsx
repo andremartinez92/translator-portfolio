@@ -9,6 +9,7 @@ import profilePic from './profile.webp';
 import EnFlagIcon from '@/components/icons/en-flag';
 import PtFlagIcon from '@/components/icons/pt-flag';
 import FrFlagIcon from '@/components/icons/fr-flag';
+import { BLUR_HERO_URL } from './constants';
 
 const TITLE = 'Alice Smith';
 
@@ -41,6 +42,7 @@ const Hero = () => {
           height={815}
           priority
           placeholder="blur"
+          blurDataURL={BLUR_HERO_URL}
           sizes="(max-width: 360px) 360px, (max-width: 480px) 480px, 500px"
           quality={70}
         />
